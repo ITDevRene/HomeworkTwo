@@ -3,6 +3,7 @@
 nav {
     display: inline-block;
     width: 80%;
+    text-align: center;
 }
 
 nav img {
@@ -10,20 +11,6 @@ nav img {
     display: inline;
     width: 10%;
 }
-
-/* a {
-    text-decoration: none;
-
-} */
-
-/* a.navegation {
-
-    display: inline;
-    color: white;
-    line-height: 200%;
-    padding: 0 100px 0 0;
-} */
-
 
 p {
     font-family:'Times New Roman', Times, serif;
@@ -34,10 +21,6 @@ p {
 main{
     background-color: yellow;
 }
-/* li {
-
-    display: block;
-} */
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -46,7 +29,8 @@ body {
 
 
 header {
-    background-color:lightgray; ;
+    background-color: lightgray;
+    text-align: center;
 }
 
 main {
@@ -63,15 +47,6 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     color: brown;
 }
-
-/* .current {
-    text-transform: uppercase;
-    background-color: red;
-    line-height: 200%;
-    padding: 0 100px 0 0;} */
-/* a[href*='e'] {
-    background-color: red;
-} */
 
 .grid {
     display: grid;
@@ -93,9 +68,9 @@ div.flex{
     margin-top: 5%;
     flex-wrap: wrap;
 }
+
 div.flex img {
-    margin: 2% 2% 2% 2%;
-    f
+    margin: 0 2% 0 2%;
 }
 
 ul img{
@@ -104,5 +79,5 @@ ul img{
 
 li {
     list-style-type: none;
-    margin-left: 5%;
+    margin-right: 5%;
 }
