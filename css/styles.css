@@ -64,11 +64,11 @@ h1 {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.flex{
     margin-top: 5%;
-    flex-wrap: wrap;
 }
 
 div.flex img {
