@@ -54,9 +54,11 @@ h1 {
     grid-template-columns: 40% 40%;
     justify-content: space-evenly;
     row-gap: 1%;
+    overflow: hidden;
+   
 }
 
-.grid  img{
+.grid img{
     width: 100%;
 }
 
